@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" fill="none">
+  <defs>
+    <pattern id="grid-dark" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#2A3446" />
+    </pattern>
+    <linearGradient id="bg-dark" x1="0" y1="0" x2="1200" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1218" />
+      <stop offset="55%" stop-color="#0F1821" />
+      <stop offset="100%" stop-color="#131B24" />
+    </linearGradient>
+    <radialGradient id="glow-coral" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(970 115) rotate(135) scale(290 200)">
+      <stop offset="0%" stop-color="#D94E28" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#D94E28" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-mint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 210) scale(260 150)">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="250" rx="18" fill="url(#bg-dark)" />
+  <rect width="1200" height="250" rx="18" fill="url(#grid-dark)" />
+  <rect width="1200" height="250" rx="18" fill="url(#glow-coral)" />
+  <rect width="1200" height="250" rx="18" fill="url(#glow-mint)" />
+  <rect x="1" y="1" width="1198" height="248" rx="17" stroke="#243040" stroke-width="1.5" />
+
+  <!-- Subtle architectural node graph on the right -->
+  <g transform="translate(745, 38)" opacity="0.95">
+    <!-- Wires -->
+    <path d="M 142 42 C 195 42, 195 96, 250 96" stroke="#FF8562" stroke-width="1.8" stroke-dasharray="5 4" fill="none" />
+    <path d="M 142 134 C 195 134, 195 96, 250 96" stroke="#2DD4BF" stroke-width="1.8" fill="none" />
+    <path d="M 358 96 L 392 96" stroke="#60A5FA" stroke-width="1.8" fill="none" />
+
+    <!-- Node 1: Agents -->
+    <rect x="12" y="18" width="130" height="48" rx="11" fill="#131E29" stroke="#FF8562" stroke-width="1.5" />
+    <circle cx="30" cy="42" r="4.5" fill="#FF8562" />
+    <text x="44" y="38" fill="#F4EFE6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">bot-link</text>
+    <text x="44" y="53" fill="#8FA2B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">E2E agent rooms</text>
+
+    <!-- Node 2: Canvas -->
+    <rect x="12" y="110" width="130" height="48" rx="11" fill="#131E29" stroke="#2DD4BF" stroke-width="1.5" />
+    <circle cx="30" cy="134" r="4.5" fill="#2DD4BF" />
+    <text x="44" y="130" fill="#F4EFE6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">skot</text>
+    <text x="44" y="145" fill="#8FA2B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">AI whiteboard</text>
+
+    <!-- Center Hub -->
+    <rect x="250" y="68" width="108" height="56" rx="13" fill="#182433" stroke="#60A5FA" stroke-width="1.6" />
+    <text x="304" y="93" text-anchor="middle" fill="#F4EFE6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700">SHIPPED</text>
+    <text x="304" y="110" text-anchor="middle" fill="#60A5FA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">local-first</text>
+
+    <!-- Output badge -->
+    <circle cx="402" cy="96" r="10" fill="#131E29" stroke="#2DD4BF" stroke-width="1.8" />
+    <path d="M 397.5 96 L 400.5 99 L 406.5 93" stroke="#2DD4BF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Left Typography -->
+  <g transform="translate(56, 54)">
+    <rect x="0" y="0" width="186" height="26" rx="13" fill="#16222E" stroke="#2A3A4E" stroke-width="1" />
+    <circle cx="16" cy="13" r="4" fill="#2DD4BF" />
+    <text x="29" y="17" fill="#B9C8D8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">BENGALURU · BUILDER</text>
+
+    <text x="0" y="76" fill="#F7F4EE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.2">Charles MJ</text>
+    <text x="0" y="111" fill="#A9B9CA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400">Building multi-agent infrastructure, AI-native canvas tools &amp; local-first software.</text>
+
+    <!-- Subtle stack pills -->
+    <g transform="translate(0, 134)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">
+      <rect x="0" y="0" width="112" height="24" rx="7" fill="#192431" stroke="#2C3C4F" />
+      <text x="56" y="16" text-anchor="middle" fill="#FF8562">Go · Rust · TS</text>
+
+      <rect x="122" y="0" width="124" height="24" rx="7" fill="#192431" stroke="#2C3C4F" />
+      <text x="184" y="16" text-anchor="middle" fill="#2DD4BF">Agent Systems</text>
+
+      <rect x="256" y="0" width="122" height="24" rx="7" fill="#192431" stroke="#2C3C4F" />
+      <text x="317" y="16" text-anchor="middle" fill="#60A5FA">Swift · Kotlin</text>
+
+      <rect x="388" y="0" width="134" height="24" rx="7" fill="#192431" stroke="#2C3C4F" />
+      <text x="455" y="16" text-anchor="middle" fill="#E5C07B">E2E &amp; Firmware</text>
+    </g>
+  </g>
+</svg>
