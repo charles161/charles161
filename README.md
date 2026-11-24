@@ -9,11 +9,12 @@
 <p align="center">
   <a href="https://botlink.dev"><strong>botlink.dev</strong></a> &nbsp;·&nbsp;
   <a href="https://skot.lightslips.ai"><strong>skot.lightslips.ai</strong></a> &nbsp;·&nbsp;
-  <a href="https://hellomoku.com"><strong>hellomoku.com</strong></a> &nbsp;·&nbsp;
-  <a href="https://backchannel.lightslips.ai"><strong>backchannel.lightslips.ai</strong></a>
+  <a href="https://roast.lightslips.ai"><strong>roast.lightslips.ai</strong></a> &nbsp;·&nbsp;
+  <a href="https://postgres-odyssey.vercel.app"><strong>postgres-odyssey</strong></a> &nbsp;·&nbsp;
+  <a href="https://hellomoku.com"><strong>hellomoku.com</strong></a>
 </p>
 
-I build developer infrastructure for the multi-agent era — encrypted agent-to-agent protocols, AI-native canvases, autonomous voice agents, macOS companions, and occasional STM32 firmware reverse engineering.
+I build developer infrastructure for the multi-agent era — encrypted agent-to-agent protocols, AI-native canvases, interactive systems visualizers, macOS companions, and occasional STM32 firmware reverse engineering.
 
 ---
 
@@ -36,14 +37,21 @@ I build developer infrastructure for the multi-agent era — encrypted agent-to-
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/charles161/moku-app">Moku</a> &nbsp;·&nbsp; <a href="https://hellomoku.com"><code>hellomoku.com</code></a></h4>
-      <p><strong>A tiny 3D macOS focus companion</strong> that quietly notices when you drift off-task and celebrates the return — native Swift on-screen buddy backed by a local Go brain.</p>
-      <p><sub><code>Swift</code> · <code>Go</code> · <code>SQLite</code> · <code>macOS</code> · <code>MIT</code></sub></p>
+      <h4><a href="https://github.com/charles161/roast">Roast</a> &nbsp;·&nbsp; <a href="https://roast.lightslips.ai"><code>roast.lightslips.ai</code></a></h4>
+      <p><strong>Your landing page is probably lying to you.</strong> Paste a URL for a brutal roast, a calibrated 0–100 score across 5 dimensions (Hero, Craft, Specifics, Proof, CTA), a side-by-side headline/CTA glow-up, and a copy-ready AI-agent fix prompt (<code>/r/&lt;id&gt;.md</code>).</p>
+      <p><sub><code>Next.js</code> · <code>TypeScript</code> · <code>Tailwind</code> · <code>SSRF Guard</code> · <code>MIT</code></sub></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/charles161/backchannel">Backchannel</a> &nbsp;·&nbsp; <a href="https://backchannel.lightslips.ai"><code>live</code></a></h4>
-      <p><strong>Autonomous reference-check voice agent</strong> (ContextCon Build 2026): discovers off-list ex-colleagues, places real outbound phone calls, transcribes interviews, and compiles a sourced verdict.</p>
-      <p><sub><code>Python</code> · <code>Voice AI</code> · <code>Agent Workflows</code> · <code>MIT</code></sub></p>
+      <h4><a href="https://github.com/charles161/postgres-odyssey">PostgreSQL Odyssey</a> &nbsp;·&nbsp; <a href="https://postgres-odyssey.vercel.app"><code>live</code></a></h4>
+      <p><strong>The Machine That Remembers.</strong> Interactive 15-episode visual journey through PostgreSQL internals — 8KB pages, WAL, MVCC, B-trees, locks, VACUUM, replication, partitioning, and sharding — plus a multi-node Postgres 16 Docker lab.</p>
+      <p><sub><code>React</code> · <code>TypeScript</code> · <code>PostgreSQL 16</code> · <code>Framer Motion</code> · <code>MIT</code></sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4><a href="https://github.com/charles161/moku-app">Moku</a> &nbsp;·&nbsp; <a href="https://hellomoku.com"><code>hellomoku.com</code></a></h4>
+      <p><strong>A tiny 3D macOS focus companion</strong> that quietly notices when you drift off-task and celebrates the return — native Swift on-screen buddy backed by a local Go brain and SQLite.</p>
+      <p><sub><code>Swift</code> · <code>Go</code> · <code>SQLite</code> · <code>macOS</code> · <code>MIT</code></sub></p>
     </td>
   </tr>
 </table>
